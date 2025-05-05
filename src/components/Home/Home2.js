@@ -4,7 +4,7 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  AiOutlineFacebook,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -19,38 +19,60 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
-            </p>
+            I fell in love with security and infrastructure engineering — and never looked back. 🛡️⚙️
+            <br />
+            <br />
+            I currently work as an
+            <i>
+              <b className="purple"> Infrastructure Security Lead at Privy</b>
+            </i>
+            , where I design and build secure, automated, and scalable infrastructure across hybrid cloud environments.
+            <br />
+            <br />
+            I'm deeply passionate about
+            <i>
+              <b className="purple"> network security</b>
+            </i>
+            ,&nbsp;
+            <i>
+              <b className="purple"> Linux hardening</b>
+            </i>
+            , and integrating security into the automation pipeline — from bare-metal to Kubernetes.
+            <br />
+            <br />
+            I also enjoy getting my hands dirty with
+            <i>
+              <b className="purple"> red teaming activities</b>
+            </i>
+            , such as conducting
+            <i>
+              <b className="purple"> vulnerability assessments</b>
+            </i>
+            , performing
+            <i>
+              <b className="purple"> penetration testing</b>
+            </i>
+            , and exploring real-world attack simulations to improve overall defense posture.
+            <br />
+            <br />
+            Whenever possible, I also apply my love for scripting and building smart tools using
+            <i>
+              <b className="purple"> Python</b>
+            </i>
+            ,&nbsp;
+            <i>
+              <b className="purple"> Bash</b>
+            </i>
+            , and even automation on macOS.
+            <br />
+            <br />
+            Security should be&nbsp;
+            <i>
+              <b className="purple">invisible, intelligent, and resilient</b>
+            </i>
+            . That's what I aim for every day.
+          </p>
+
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -67,7 +89,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/ikblmhndra/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,17 +99,17 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://www.facebook.com/ikbal.mahendra.96"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <AiOutlineFacebook />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/ikblmhndra/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +119,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/ikblmhndra_"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
